@@ -51,6 +51,29 @@
     margin: 0 10px !important;
     border-radius: 30px !important;
     font-family: 'Montserrat', sans-serif !important;
+    transition: 0.5s all !important;
+}
+
+.nav-link:hover{
+    background: #fff !important;
+    color: #784f2e !important;
+}
+
+.nav-link2{
+    background: #3571A1 !important;
+    color: #fff !important;
+    padding: 5px 25px !important;
+    margin: 0 10px !important;
+    border-radius: 30px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s all;
+}
+
+.nav-link2:hover{
+    background: #fff !important;
+    color: #3571A1 !important;
 }
 
 .one-section {
@@ -89,4 +112,213 @@
     text-transform: uppercase;
     padding: 10px 20px;
     font-weight: 700;
+}
+
+.os-div2{
+    margin: 40px 0;
+}
+
+.os-btn{
+    margin: 0 10px;
+    background: #784f2e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration:none
+}
+
+.os-btn2{
+    margin: 0 10px;
+    background: #3571A1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration:none
+}
+
+.two-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ts-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ts-div{
+    background: #3571A1;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    padding: 20px 30px;
+    width: 500px;
+}
+
+.ts-div2{
+    margin: 20px 0;
+}
+
+.ts-h1, .ts-h2, .ts-p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.ts-btn{
+    background: #784f2e;
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+.three-section{
+    width: 100%;
+    position: relative;
+    padding: 40px;
+
+    overflow: hidden;
+}
+
+.ths-h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #784f2e;
+    margin: 0;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.ths-div {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ths-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ths-div::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+.ths-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; 
+}
+
+.ths-div:hover .ths-p {
+    opacity: 1;
+}
+
+.four-section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.fs-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.fs-div{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 60px;
+    background: #fff;
+}
+
+.fs-h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #784f2e;
+    margin: 10px 0 20px;
+    font-weight: 700;
+}
+
+.fs-p{
+    font-family: 'Montserrat', sans-serif;
+    color: #784f2e;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.fs-hr{
+    opacity: 0.5;
+    height: 2px;
+    background: #784f2e;
+}
+
+.cmd6{
+    border-left: 2px solid #bba796;
+    padding-left: 40px !important;
+}
+
+form{
+    margin: 10px 0;
+}
+
+.fs-btn{
+    background: #3571A1;
+    color: #fff;
+    width: 100%;    
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.form-control{
+    border: 1px solid #bba796 !important;
+}
+
+.form-control::placeholder{
+    color: #bba796 !important;
 }
